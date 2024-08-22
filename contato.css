@@ -1,0 +1,50 @@
+/* Estilo para o cabeçalho */
+header {
+    background-color: #333; /* Fundo cinza escuro */
+    padding: 30px;
+}
+
+/* Estilo para os links do cabeçalho */
+header nav a {
+    color: #fff; /* Cor das letras branca */
+    text-decoration: none;
+    margin-right: 15px;
+    font-weight: bold;
+}
+
+/* Mudança de cor ao passar o mouse nos links do cabeçalho */
+header nav a:hover {
+    color: #ccc; /* Cor das letras cinza claro */
+}
+
+/* Estilo para o botão "Enviar" */
+button {
+    background-color: #333; /* Fundo da mesma cor do cabeçalho */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px; /* Border-radius para cantos arredondados */
+    cursor: pointer;
+}
+
+/* Mudança de cor ao passar o mouse no botão */
+button:hover {
+    background-color: #ccc; /* Fundo cinza claro */
+    color: #000; /* Cor das letras preta */
+}
+
+/* Estilo para o formulário de contato */
+form {
+    margin: 20px auto;
+    width: 50%; /* Ajuste a largura conforme necessário */
+    padding: 20px;
+    background-color: #f9f9f9; /* Cor de fundo clara */
+    border-radius: 10px; /* Border-radius para cantos arredondados */
+}
+
+/* Estilo para os campos do formulário */
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
